@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>45006122199-5qinbqhvau9b2rhfv5uahma72e3vtjus.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.45006122199-5qinbqhvau9b2rhfv5uahma72e3vtjus</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDU4qiJdvSdjU6InDrgX2RYD4lP1N5eqsw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>45006122199</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.DanCoWorldWide.HoboShare</string>
+	<key>PROJECT_ID</key>
+	<string>hoboshare</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hoboshare.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:45006122199:ios:c2e7cd507bc8ca08669492</string>
+</dict>
+</plist>

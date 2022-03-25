@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		366704E327ED4A3400415844 /* HoboShareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366704E227ED4A3400415844 /* HoboShareApp.swift */; };
+		366704E527ED4A3400415844 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366704E427ED4A3400415844 /* ContentView.swift */; };
+		366704E727ED4A3400415844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366704E627ED4A3400415844 /* Assets.xcassets */; };
+		366704EA27ED4A3400415844 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366704E927ED4A3400415844 /* Preview Assets.xcassets */; };
+		366704F127ED4AE000415844 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 366704F027ED4AE000415844 /* GoogleService-Info.plist */; };
+		366704F527ED4C4C00415844 /* FBAuthentication in Frameworks */ = {isa = PBXBuildFile; productRef = 366704F427ED4C4C00415844 /* FBAuthentication */; };
+		366704F727ED4D0600415844 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366704F627ED4D0600415844 /* HomeView.swift */; };
+		366704F927ED530600415844 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 366704F827ED530600415844 /* Logo.png */; };
+		366704FD27ED5EFC00415844 /* TrailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366704FC27ED5EFC00415844 /* TrailsView.swift */; };
+		366704FF27ED5F3900415844 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366704FE27ED5F3900415844 /* CalendarView.swift */; };
+		3667050127ED5F7E00415844 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667050027ED5F7E00415844 /* MessageView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		366704DF27ED4A3400415844 /* HoboShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoboShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		366704E227ED4A3400415844 /* HoboShareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoboShareApp.swift; sourceTree = "<group>"; };
+		366704E427ED4A3400415844 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		366704E627ED4A3400415844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		366704E927ED4A3400415844 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		366704F027ED4AE000415844 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		366704F227ED4BC800415844 /* HoboShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HoboShare.entitlements; sourceTree = "<group>"; };
+		366704F627ED4D0600415844 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		366704F827ED530600415844 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		366704FC27ED5EFC00415844 /* TrailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailsView.swift; sourceTree = "<group>"; };
+		366704FE27ED5F3900415844 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		3667050027ED5F7E00415844 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		366704DC27ED4A3400415844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366704F527ED4C4C00415844 /* FBAuthentication in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		366704D627ED4A3400415844 = {
+			isa = PBXGroup;
+			children = (
+				366704E127ED4A3400415844 /* HoboShare */,
+				366704E027ED4A3400415844 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		366704E027ED4A3400415844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				366704DF27ED4A3400415844 /* HoboShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		366704E127ED4A3400415844 /* HoboShare */ = {
+			isa = PBXGroup;
+			children = (
+				366704F227ED4BC800415844 /* HoboShare.entitlements */,
+				366704F027ED4AE000415844 /* GoogleService-Info.plist */,
+				366704E227ED4A3400415844 /* HoboShareApp.swift */,
+				366704F627ED4D0600415844 /* HomeView.swift */,
+				366704E427ED4A3400415844 /* ContentView.swift */,
+				3667050027ED5F7E00415844 /* MessageView.swift */,
+				366704FC27ED5EFC00415844 /* TrailsView.swift */,
+				366704FE27ED5F3900415844 /* CalendarView.swift */,
+				366704F827ED530600415844 /* Logo.png */,
+				366704E627ED4A3400415844 /* Assets.xcassets */,
+				366704E827ED4A3400415844 /* Preview Content */,
+			);
+			path = HoboShare;
+			sourceTree = "<group>";
+		};
+		366704E827ED4A3400415844 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				366704E927ED4A3400415844 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		366704DE27ED4A3400415844 /* HoboShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 366704ED27ED4A3400415844 /* Build configuration list for PBXNativeTarget "HoboShare" */;
+			buildPhases = (
+				366704DB27ED4A3400415844 /* Sources */,
+				366704DC27ED4A3400415844 /* Frameworks */,
+				366704DD27ED4A3400415844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoboShare;
+			packageProductDependencies = (
+				366704F427ED4C4C00415844 /* FBAuthentication */,
+			);
+			productName = HoboShare;
+			productReference = 366704DF27ED4A3400415844 /* HoboShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		366704D727ED4A3400415844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					366704DE27ED4A3400415844 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 366704DA27ED4A3400415844 /* Build configuration list for PBXProject "HoboShare" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 366704D627ED4A3400415844;
+			packageReferences = (
+				366704F327ED4C4C00415844 /* XCRemoteSwiftPackageReference "FBAuthentication" */,
+			);
+			productRefGroup = 366704E027ED4A3400415844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				366704DE27ED4A3400415844 /* HoboShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		366704DD27ED4A3400415844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366704F927ED530600415844 /* Logo.png in Resources */,
+				366704EA27ED4A3400415844 /* Preview Assets.xcassets in Resources */,
+				366704E727ED4A3400415844 /* Assets.xcassets in Resources */,
+				366704F127ED4AE000415844 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		366704DB27ED4A3400415844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3667050127ED5F7E00415844 /* MessageView.swift in Sources */,
+				366704FF27ED5F3900415844 /* CalendarView.swift in Sources */,
+				366704F727ED4D0600415844 /* HomeView.swift in Sources */,
+				366704FD27ED5EFC00415844 /* TrailsView.swift in Sources */,
+				366704E527ED4A3400415844 /* ContentView.swift in Sources */,
+				366704E327ED4A3400415844 /* HoboShareApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		366704EB27ED4A3400415844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		366704EC27ED4A3400415844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		366704EE27ED4A3400415844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HoboShare/HoboShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoboShare/Preview Content\"";
+				DEVELOPMENT_TEAM = 99ZUCD4A48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanCoWorldWide.HoboShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		366704EF27ED4A3400415844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HoboShare/HoboShare.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HoboShare/Preview Content\"";
+				DEVELOPMENT_TEAM = 99ZUCD4A48;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanCoWorldWide.HoboShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		366704DA27ED4A3400415844 /* Build configuration list for PBXProject "HoboShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366704EB27ED4A3400415844 /* Debug */,
+				366704EC27ED4A3400415844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		366704ED27ED4A3400415844 /* Build configuration list for PBXNativeTarget "HoboShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366704EE27ED4A3400415844 /* Debug */,
+				366704EF27ED4A3400415844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		366704F327ED4C4C00415844 /* XCRemoteSwiftPackageReference "FBAuthentication" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StewartLynch/FBAuthentication.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		366704F427ED4C4C00415844 /* FBAuthentication */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 366704F327ED4C4C00415844 /* XCRemoteSwiftPackageReference "FBAuthentication" */;
+			productName = FBAuthentication;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 366704D727ED4A3400415844 /* Project object */;
+}
